@@ -814,8 +814,16 @@ hr:after {
     line-height: 1em;
     font-weight: 400;
     font-size: 0.9em;
-    text-transform: uppercase;
+    text-transform: none;
     color: var(--text-color);
+}
+
+.location::before {
+    content: "("
+}
+
+.location::after {
+    content: ")"
 }
 
 .toi-list {
